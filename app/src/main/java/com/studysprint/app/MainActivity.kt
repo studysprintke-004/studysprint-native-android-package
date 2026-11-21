@@ -100,7 +100,7 @@ class MainActivity : AppCompatActivity() {
 
         searchInput = EditText(this).apply {
             hint = "Search notes, CATs or past papers"
-            singleLine = true
+            isSingleLine = true
             setPadding(14, 8, 14, 8)
             setBackgroundColor(0xFFFFFFFF.toInt())
         }
